@@ -17,7 +17,7 @@ Table of contents:
 
 body {
     background-color: 	hsl(280, 13%, 87%);
-    font-family: "Poppins", sans-serif, "Arial Rounded MT Bold", sans-serif, "Times New Roman", sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-weight: 300;
     color: 	hsl(223, 10%, 36%);
 }
@@ -27,20 +27,22 @@ body {
  */
 
 h1, h2, h3 {
-    font-family: "Poppins", sans-serif, "Arial Rounded MT Bold", sans-serif, "Times New Roman", sans-serif;
+    font-weight: 500;
     color: hsl(281, 26%, 48%);
 }
 
-h1 {
-    font-weight: 500;
-    font-style: normal;
+h1, h2 {
     text-align: center;
+}
+
+h1 {
+    font-style: normal;
     text-decoration: underline;
 }
 
 h2 {
-    text-align: center;
     text-transform: uppercase;
+    letter-spacing: 10px;
 }
 
 /*
@@ -55,7 +57,7 @@ h2 {
     4. Areas
  */
 #introduction {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 
@@ -65,9 +67,11 @@ h2 {
  */
 
 .button {
-    font-family: "Poppins", sans-serif, "Arial Rounded MT Bold", sans-serif, "Times New Roman", sans-serif;
-    font-weight: 300;
-    font-size: 1em;
+    font-size: 1.5em;
     color: 	hsl(0, 0%, 100%);
-    background-color: hsl(281, 26%, 48%);;
+    background-color: hsl(281, 26%, 48%);
+}
+
+button:hover {
+    background-color: palevioletred;
 }
